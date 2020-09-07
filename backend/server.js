@@ -17,8 +17,8 @@ app.use(express.json());
 //app.use(cors());
 
 app.use((req, res, next) => {
-    res.setHeaders('Access-Control-Allow-Origin', '*'),
-        res.setHeaders('Access-Control-Allow-Origin', '*'),
+    res.setHeader('Access-Control-Allow-Origin', '*'),
+        res.setHeader('Access-Control-Allow-Origin', '*'),
         next()
 });
 
