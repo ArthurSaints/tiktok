@@ -10,6 +10,11 @@ const port = 9000;
 
 // middlewares
 app.use(express.json());
+app.use((req, res, next) => {
+    res.setHeaders('Access-Control-Allow-Origin', '*'),
+        res.setHeaders('Access-Control-Allow-Origin', '*'),
+        next()
+});
 
 // db config 
 const connection_url = "mongodb+srv://admin:stxW368cWdOwlC81@cluster0.ovkrl.mongodb.net/tiktok-clone-db?retryWrites=true&w=majority";
