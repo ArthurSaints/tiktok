@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+//import cors from "cors";
 
 import Data from "./data.js";
 import Videos from "./dbModel.js";
@@ -10,6 +11,11 @@ const port = process.env.PORT || 9000;
 
 // middlewares
 app.use(express.json());
+
+// O CORS pode funcionar como um porteiro, permitindo
+// quem pode entrar!
+//app.use(cors());
+
 app.use((req, res, next) => {
     res.setHeaders('Access-Control-Allow-Origin', '*'),
         res.setHeaders('Access-Control-Allow-Origin', '*'),
