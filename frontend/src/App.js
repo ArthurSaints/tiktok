@@ -10,7 +10,7 @@ function App() {
 
       <div className="app__videos">
         <Video
-          url="https://v16m.tiktokcdn.com/3689b15c0c35a41371fa7437a1388abd/5f567a11/video/tos/useast2a/tos-useast2a-ve-0068c001/66b4be845b5f44b793d5e52cbcc5900c/?a=1233&br=1876&bt=938&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=2020090712204501018907203433007189&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=anRyZ2psaXhydzMzPDczM0ApMztkNDw8NWQ6NzRpZzg7Z2c2NF5jMWtkaDNfLS0zMTZzczE1MV42LmMyLTM2NjJgMF86Yw%3D%3D&vl=&vr="
+          url="https://v16m.tiktokcdn.com/ade2354e8ee8edf17a0b0c91a768b0cd/5f56f56b/video/tos/useast2a/tos-useast2a-ve-0068c002/397f88561c6c43aba67d4e4c38a0e227/?a=1233&br=1890&bt=945&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20200907210703010189073097411D70F5&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=M3Z1O3d1c3Q4dTMzNTczM0ApZjs7NDpmNDw3N2llaTM5NGdva2RlZmNkbHNfLS0tMTZzczIwXjAyNDYvMF8uL2M1LTU6Yw%3D%3D&vl=&vr="
           channel="arthursantosgc"
           description="This is a tiktok clone dude!"
           song="Icon by Arthur Santos"
